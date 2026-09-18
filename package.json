@@ -1,0 +1,17 @@
+{
+  "name": "ufo-backend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend: reverse geocoding + prawdziwe wyszukiwanie web (Brave Search API) dla aplikacji UFO landing finder.",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "express": "^4.19.2"
+  }
+}
